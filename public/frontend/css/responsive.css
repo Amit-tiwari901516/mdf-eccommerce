@@ -1,0 +1,294 @@
+/*RESPONSIVE*/
+
+/* -----  Tablet Landscape   -----*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .product-item-row .col-12:nth-child(3) {
+        margin-left: 12%;
+        max-width: 24%;
+    }
+
+    .product-item-row .col-12:nth-child(4) {
+        max-width: 24%;
+    }
+
+    .product-item-row .col-12:nth-child(5) {
+        max-width: 24%;
+    }
+
+    .product-item-row .col-12:nth-child(6) {
+        max-width: 16%;
+    }
+
+    .product-input-wrap .input-group {
+        grid-template-columns: 426px 1fr;
+    }
+
+    .input-group.product-input-frontnotch,
+    .input-group.product-input-addinstall {
+        grid-template-columns: 364px 1fr;
+    }
+
+    .product-item-row .col-12:nth-child(1) {
+        max-width: 12%;
+    }
+
+    .product-item-row .col-12:nth-child(2) {
+        max-width: 88%;
+        flex: 0 0 88%;
+    }
+
+    .product-item-row .col-md-4 {
+        width: 40%;
+    }
+
+    .product-item-row .col-md-8 {
+        width: 60%;
+    }
+
+    /* Cart Page */
+
+    .cart-pro-table table tr:first-child td {
+        padding: 18px 5px;
+    }
+    .cart-pro-table table tr td {
+        padding: 23px 5px;
+    }
+    .c-p-t-btn {
+        padding: 5px 10px;
+    }
+
+    /* Order summery page */
+
+    .single-o-s-c-box .form-control {
+        width: 50%
+    }
+}
+
+
+/* -----  Tablet Portrait  -----*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .product-item-row .col-12:nth-child(2) {
+        max-width: 84%;
+        flex: 0 0 89%;
+    }
+
+    .product-item-row .col-12:nth-child(1) {
+        max-width: 16%;
+    }
+
+    .product-page-wrapper .col-md-9.col-sm-12 {
+        width: 100%;
+    }
+
+    .input-group.upload-design-wrap {
+        width: 341px;
+    }
+
+    .product-item-row input {
+        padding: 4px;
+    }
+
+    .product-item-row .col-12:nth-child(3) {
+        margin-left: 0%;
+    }
+
+    .product-item-row .col-12:nth-child(3),
+    .product-item-row .col-12:nth-child(4),
+    .product-item-row .col-12:nth-child(5),
+    .product-item-row .col-12:nth-child(6),
+    .product-item-row .col-12:nth-child(7),
+    .product-item-row .col-12:nth-child(8) {
+        max-width: 50%;
+        width: 50%;
+    }
+
+    .upload_design label {
+        grid-template-columns: 236px 100px;
+    }
+
+    /* Cart Page */
+
+    .c-p-btm-info {
+        margin-top: 30px;
+    }
+    .cart-pro-table table tr:first-child td {
+        padding: 18px 5px;
+    }
+    .cart-pro-table table tr td {
+        padding: 23px 5px;
+    }
+    .c-p-t-btn {
+        padding: 5px 10px;
+    }
+
+    /* Order summery page */
+
+    .single-o-s-c-box .form-control {
+        width: 60%
+    }
+    .o-s-gal-con {
+        margin-top: 15px;
+    }
+    
+/* My Account */
+
+  .my-account-section #v-pills-tabContent {
+    overflow-x: auto;
+  }
+  .my-account-section .nav-link { 
+     width: 180px; 
+   }
+ 
+
+}
+
+/* -----  Phone  -----*/
+@media only screen and (max-width: 767px) {
+    .header-top .col-sm-12 {
+        display: grid;
+        text-align: center;
+        grid-gap: 10px;
+    }
+
+    .banner-section .col-sm-12 {
+        display: grid;
+    }
+
+    .banner-contact {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+    }
+
+    .banner-section {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .banner-right .navigation ul {
+        text-align: left;
+    }
+
+    .product-input-label .input-group-text {
+        font-size: 13px;
+        letter-spacing: -.5px;
+    }
+
+    .product-input-wrap .input-group {
+        grid-template-columns: 1fr;
+    }
+
+    .product-input-label .input-group-text {
+        height: 37px;
+    }
+	.product-input-wrap {
+	  margin-top: 20px;
+	}
+	.add-prod-title { 
+	  margin-bottom: -10px;
+	}
+    .input-group.upload-design-wrap {
+        width: 100%;
+    }
+
+    .upload_design label {
+        width: 100%;
+        grid-template-columns: 195px 95px;
+    }
+
+    .product-item-row .col-12 {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-left: 0% !important;
+    }
+
+    .wish-cart-btn .wishlist-btn {
+        margin-right: 0px;
+    }
+
+    .footer-area .col-sm-12,
+    .footer-area p {
+        text-align: center;
+    }
+
+    /* Cart Page */
+
+    .c-p-btm-info {
+        margin-top: 20px;
+    }
+    .cart-pro-table table tr:first-child td {
+        padding: 10px 5px;
+    }
+    .cart-pro-table table tr td {
+        padding: 12px 5px;
+    }
+    .c-p-t-btn {
+        padding: 5px 10px;
+    }
+    .all-mb {
+        display: block;
+    }
+    .all-dev {
+        display: none;
+    }
+    /* Order summery page */
+
+    .single-o-s-c-box .form-control {
+        width: 100%;
+    }
+    .single-o-s-c-box .o-d-c-btn {
+        display: block;
+        width: 100%;
+    }
+
+/* My Account */
+.product-breadcrumb span {
+    width: 100%;
+  }
+  .my-account-section .d-flex.align-items-start {
+    display: block !important;
+  }
+  .my-account-section #v-pills-tabContent {
+    margin-left: 0px;
+  }
+  .my-account-section .nav-link {
+    width: 100%;
+  }
+  .my-account-section .sn-form-inner {
+    grid-template-columns: 1fr;
+  }
+ 
+}
+
+/* -----   Mobile Vertical Layout: 488px   -----*/
+@media only screen and (min-width: 488px) and (max-width: 767px) {}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 310px) {}
+
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
